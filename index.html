@@ -22,13 +22,13 @@
 						<input id="name" required autocomplete="off" type="text" name="name" placeholder="Введіть ім'я" class="form__input">
 					</div>
 					<div class="form__line">
-						<label for="name" class="form__label">Введіть пароль</label>
-						<input id="name" required autocomplete="off" type="password" name="pass" placeholder="Введіть пароль" class="form__input">
+						<label for="pass" class="form__label">Введіть пароль</label>
+						<input id="pass" required autocomplete="off" type="password" name="pass" placeholder="Введіть пароль" class="form__input">
 					</div>
 					<div class="form__line">
 						<!-- Кастомний чекбокс -->
 						<div class="checkbox">
-							<input id="car" autocomplete="off" type="checkbox" value="yes" name="car" class="checkbox__input">
+							<input id="car"  type="checkbox" value="yes" name="car" class="checkbox__input">
 							<label for="car" class="checkbox__label"><span class="checkbox__text">Є тачка?</span></label>
 						</div>
 					</div>
@@ -46,11 +46,11 @@
 						<!-- Тип radio - одиночний вибір -->
 						<!-- Для однієї групи радіо кнопок має бути одинакове значення атрибуту name -->
 						<div class="form__radio">
-							<input checked class="form__input form__input_radio" id="pet-01" required autocomplete="off" value="cat" name="pet" type="radio">
+							<input checked class="form__input form__input_radio" id="pet-01" required  value="cat" name="pet" type="radio">
 							<label class="form__label" for="pet-01">Кішка</label>
 						</div>
 						<div class="form__radio">
-							<input class="form__input form__input_radio" id="pet-02" required autocomplete="off" name="pet" value="dog" type="radio">
+							<input class="form__input form__input_radio" id="pet-02" required  name="pet" value="dog" type="radio">
 							<label class="form__label" for="pet-02">Собака</label>
 						</div>
 					</div>
@@ -99,12 +99,12 @@
 					</div>
 					<div class="form__line">
 						<!-- Тип checkbox - множинний вибір -->
-						<input id="car-01" class="form__input form__input_chk" required autocomplete="off" name="car" type="checkbox">
+						<input id="car-01" class="form__input form__input_chk" required  name="car" type="checkbox">
 						<label class="form__label" for="car-01">Є авто?</label>
 					</div>
 					<div class="form__line">
 						<!-- Тип checkbox - множинний вибір -->
-						<input id="home-01" checked class="form__input form__input_chk" required autocomplete="off" name="car" type="checkbox">
+						<input id="home-01" checked class="form__input form__input_chk" required name="car" type="checkbox">
 						<label class="form__label" for="home-01">Є де жити?</label>
 					</div>
 					<div class="form__line">
@@ -113,12 +113,12 @@
 						<!-- Для однієї групи радіо кнопок має бути одинакове значення атрибуту name -->
 						<!-- Варто вказувати значення атрибуту value -->
 						<div class="form__radio">
-							<input checked class="form__input form__input_radio" id="pet-01" required autocomplete="off" value="cat" name="pet" type="radio">
-							<label class="form__label" for="pet-01">Кішка</label>
+							<input checked class="form__input form__input_radio" id="pet-001" required  value="cat" name="pet" type="radio">
+							<label class="form__label" for="pet-001">Кішка</label>
 						</div>
 						<div class="form__radio">
-							<input class="form__input form__input_radio" id="pet-02" required autocomplete="off" name="pet" value="dog" type="radio">
-							<label class="form__label" for="pet-02">Собака</label>
+							<input class="form__input form__input_radio" id="pet-002" required  name="pet" value="dog" type="radio">
+							<label class="form__label" for="pet-002">Собака</label>
 						</div>
 					</div>
 					<div class="form__line">
@@ -127,7 +127,7 @@
 							Атрибут accept - фільтрує формати файлів
 						-->
 						<label for="file" class="form__label">Choose file to upload</label>
-						<input class="form__input" name="file" value="choose file" accept="image/png, image/jpeg" multiple type="file">
+						<input class="form__input" name="file" accept="image/png, image/jpeg" multiple type="file">
 					</div>
 					<div class="form__line">
 						<!-- textarea - ввід багаторядкового тексту -->
